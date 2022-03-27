@@ -49,10 +49,10 @@ while operacao_diretor != 4:
             
                 
             if a == 1:
-                print("Entrou")
+                print("Chave inserida!")
                 lista_func.append(Pessoa(CPF,nome,chave))
                 chaves.append(chave)
-            print(lista_func)
+            
                 
         elif suboperacao == 2:
             print("Digite o setor da máquina correspondente.")
@@ -67,7 +67,7 @@ while operacao_diretor != 4:
                 print("Chave já cadastrada. Por favor, tente novamente!")
                 a=0
             if a == 1:
-                print("Entrou")
+                print("Chave inserida!")
                 lista_equip.append(Equipamento(setor,nome,chave))
                 chaves_equip.append(chave)
             
