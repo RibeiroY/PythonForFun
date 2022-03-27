@@ -43,7 +43,7 @@ while operacao_diretor != 4:
             chave = input()
             a=1
         
-            if chaves in chaves:
+            if chave in chaves:
                 print("Chave já cadastrada. Por favor, tente novamente!")
                 a=0
             
